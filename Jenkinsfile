@@ -17,8 +17,8 @@ pipeline {
         stage('Tag & Push'){
             steps{
                 withDockerRegistry(credentialsId: 'dockerhub', url: 'https://index.docker.io/v1/') {
-                    sh 'docker tag devopsbyritesh07 riteshprasad07/devopsbyritesh07:v8'
-                    sh 'docker push riteshprasad07/devopsbyritesh07:v8'
+                    sh 'docker tag devopsbyritesh07 riteshprasad07/devopsbyritesh07:v9'
+                    sh 'docker push riteshprasad07/devopsbyritesh07:v9'
                 }
             }
         }
