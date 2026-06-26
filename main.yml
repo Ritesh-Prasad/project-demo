@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: riteshprasad07/devopsbyritesh07:v9
+        image: riteshprasad07/devopsbyritesh07:v10
         imagePullPolicy: Always
         ports:
         - containerPort: 80
